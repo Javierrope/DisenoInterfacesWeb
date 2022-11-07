@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="display: flex; justify-content: center;"> CV MANUEL FUENTES GÓMEZ</h1>
+        <hr>
+    </header>
+    <main>
+        <section class="datosPersonales">
+            <div class="imagen">
+                <img src="cv.jpg">
+            </div>
+            <div class="datos">
+                <ul>
+                    <li>Nombre: Manuel</li>
+                    <li>Apellidos: Fuentes Gómez</li>
+                    <li>E-mail: mfuentesgomez@gmail.com</li>
+                    <li>Teléfono: 853654712</li>
+                    <li>Localidad: Lucena (Córdoba)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="datosAcademicos">
+            <h3>DATOS ACADÉMICOS</h3>
+            <section>
+                <ul>
+                    <li>Grado en Administración y dirección de empresas
+                        <br>
+                        <p> 4 años de Grado universitario en la Universidad de Granda, donde aprendí, la estructura
+                            básica de cualquier empresas
+                            como organización económica.
+                            Link de la uniersidad:
+                            <a href="https://www.ugr.es/">Universidad de Granada</a>
+                        </p>
+                    </li>
+                    <li>Técnico en Diseño de Aplicaciones Web
+                        <br>
+                        <p> Estúdios técnicos de informática y desarrollo web, en el cual, aprendí lenguajes de
+                            programació
+                            tan usados como HTML, JavaScript, PHP o SQL, desarrollado en diferentes frameworks.
+                            <br>
+                            Estudios realizados en el IES Marqués de Comares. <br>
+                            Link del instituto:
+                            <a href="https://blogsaverroes.juntadeandalucia.es/iesmarquesdecomares/">IES Marqués de
+                                Comares</a>
+                        </p>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section id="experienciaLaboral">
+            <h3>EXPERIENCIA LABORAL</h3>
+            <section>
+                <ul>
+                    <li>Alhóndiga La Unión
+                        <br>
+                        <p> Trabajando como auxiliar administrativo, para los departamentos de contabilidad, y de
+                            compras
+                            durante 6 meses (Agosto 2019 - Junio 2020), desarrollando trabajos contables y de
+                            facturación, ademas
+                            de la amortización del inmovilizado de la empresa.
+                            Link a la empresa:
+                            <a href="https://www.launioncorp.com/">Alhóndiga La Unión</a>
+                        </p>
+                    </li>
+
+                </ul>
+            </section>
+        </section>
+        <section id="formComplementaria">
+            <h3>FORMACIÓN COMPLEMENTARIA</h3>
+            <section >
+                <ul>
+                    <li>
+                        <h4>
+                            Idiomas:
+                        </h4>
+                        <ul>
+                            <li>
+                                Inglés:
+                                <p> B2 por la Universidad de Cambridge (2019)</p>
+                            </li>
+                            <li>
+                                Francés:
+                                <p> Nivel básico tanto oral como escrito</p>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+        </section>
+        <section id="otrasHabilidades">
+            <h3 class="titulo">OTRAS HABILIDADES</h3>
+            <section>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Asertividad</li>
+                    <li>Conciencia de empresa</li>
+                    <li>Resolutivo</li>
+                    <li>Ganas de desarrollo personal y laboral</li>
+
+                </ul>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <h1 style="display: flex; justify-content: center;"> CV MANUEL FUENTES GÓMEZ</h1>
+    </footer>
+</body>
+
+<script>
+    var titulos = document.querySelectorAll("h3");
+    titulos.forEach(element => {
+        element.setAttribute("class", "titulo");
+    });
+
+    var firstSection = document.querySelector("section");
+
+    firstSection.style="padding-bottom: 0px"
+
+    
+</script>
+</html>

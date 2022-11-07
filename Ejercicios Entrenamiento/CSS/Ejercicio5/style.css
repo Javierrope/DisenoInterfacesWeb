@@ -1,0 +1,25 @@
+div {
+    border: 1px solid;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+    .display-none {
+      display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+  }

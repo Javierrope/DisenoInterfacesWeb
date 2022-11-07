@@ -1,0 +1,13 @@
+#texto {
+  opacity: 0.25;
+}
+#cookies {
+
+  height: 80%;
+  width: 80%;
+  background-color: red;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  visibility: visible;
+}

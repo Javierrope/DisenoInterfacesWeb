@@ -1,0 +1,30 @@
+.boton {
+    background-color: rgb(255, 0, 0);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 15px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px black;
+ }
+
+ .boton:hover i{
+
+    display: none;
+ }
+
+ .boton:hover {
+    font-size: 30px;
+ }
+
+ .boton:active {
+   transform: scale(0.98);
+   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}

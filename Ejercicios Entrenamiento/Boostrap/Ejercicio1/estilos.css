@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+   height: max-content;
+   align-items: center;
+  
+}
+
+.datos {
+    font-size: 20px;
+    
+}

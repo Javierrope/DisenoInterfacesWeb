@@ -1,0 +1,74 @@
+
+EJERCICIO 1
+
+<?xml version="1.0"?> 
+<libros> 
+	<libro id="quijote"> 
+		<titulo>El Quijote</titulo> 
+		<autor> Cervantes </autor>
+		<descripcion>Es el mejor libro de cervantes.</descripcion>		 
+	</libro> 
+</libros>
+
+EJERCICIO 2
+
+<!DOCTYPE nota
+[
+<!ELEMENT nota (para | de | titulo | contenido)*>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+
+]>
+EJERCICIO 3
+
+<ul> - Determina, que el código representa una lista desordenada.
+
+<footer> - Determina el footer, o pie de pagina.
+
+<aside> - Marca la seccion de un documento, cuyo contenido no está relacionado de forma directa con el contenido principal del documento
+
+<div> - Introducir un contenedor donde introducir elementos.
+
+<th> - Cabecera de una tabla.
+
+EJERCICIO 4
+
+#ejemplo{
+    width:300px;
+    height:100px;
+    text-align: center;
+    border:3px solid brown;
+    border-radius:22px;
+ }
+EJERCICIO 5
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int array[]; 
+        array = new int[10];
+        int numero = 0;
+        
+        for (int i = 0; i<10; i++) {
+             System.out.println("Introduce un número");
+             numero=sc.nextInt();
+             array[i] = numero;
+        }
+        
+        Arrays.sort(array);
+        
+        System.out.println("Numeros ordenados");
+
+        for (int i = 0; i< array.length; i++) {
+                     System.out.println(array[i] + ", ");
+
+        }
+    }
+}
+
+

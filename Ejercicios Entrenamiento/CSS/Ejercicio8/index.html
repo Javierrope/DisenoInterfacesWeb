@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>       
+    <ul class="topnav">
+        <li  class="home" onclick="hola()">Home</li>
+        <li  class="item">Link 1</li>
+        <li class="item">Link 2</li>
+        <li class="item">Link 3</li>       
+    </ul>
+</body>
+<script>
+    var show = false;
+
+    function hola() {
+       
+        var items = document.querySelectorAll(".item")
+
+        items.forEach(element => {
+            if (show == true) {
+                element.style.display = "none";
+            }
+            else {
+                element.style.display = "inline";
+            }
+            console.log("hola")
+        });
+        show = !show;
+
+    }
+</script>
+</html>
