@@ -3,8 +3,3 @@ div {
     text-align: center;
     border-width: 1px;
 }
-
-.expandir {
-    display: flex;
-    flex-grow: 1;
-}
